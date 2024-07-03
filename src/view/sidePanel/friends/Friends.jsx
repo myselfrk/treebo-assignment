@@ -17,7 +17,7 @@ import { getFriends } from "../../../service/user";
 import AddFriendModal from "./AddFriendModal";
 
 function Friends() {
-  const friendId = useParams()["*"]?.split("/")[1];
+  const friendId = useParams()?.id;
 
   const [friendList, setFriendList] = useState([]);
   const [openAddFriendModal, setOpenAddFriendModal] = useState(false);
