@@ -34,7 +34,7 @@ function Navbar() {
     >
       <Stack
         component={NavLink}
-        to={"/"}
+        to={"/dashboard"}
         direction="row"
         alignItems="center"
         className="text-decoration-none"
